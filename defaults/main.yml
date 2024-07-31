@@ -1,4 +1,4 @@
 ---
 # defaults file for delete_user
-user_name: default 
+user_name: default
 user_state: absent

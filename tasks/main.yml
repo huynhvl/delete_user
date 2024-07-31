@@ -1,10 +1,9 @@
 ---
 # tasks file for delete_user
-- name: Delete user on remote host
+- name: delete user on remote host
   become: yes
   user:
     name: '{{user_name}}'
     state: '{{user_state}}'
     remove: yes
     shell: /bin/bash
-    append: yes
